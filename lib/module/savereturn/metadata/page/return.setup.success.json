@@ -1,0 +1,16 @@
+{
+  "_id": "return.setup.success",
+  "_type": "page.content",
+  "actionType": "continue.last",
+  "body": "You can now continue working or come back later",
+  "components": [
+    {
+      "_id": "return.setup.success.group",
+      "_isa": "group.authenticated",
+      "_type": "group"
+    }
+  ],
+  "heading": "{savereturn@mobile, select, undefined{Your work has been saved} other{Your work is now protected by 2-step verification}}",
+  "mountPoint": "return.setup",
+  "url": "saved"
+}

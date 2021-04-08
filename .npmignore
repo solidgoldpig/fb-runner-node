@@ -1,0 +1,6 @@
+.circleci/
+.dependabot/
+.eslintrc.js
+.gitignore
+.wallaby.conf.js
+spec/

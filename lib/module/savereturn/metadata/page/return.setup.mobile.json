@@ -1,0 +1,29 @@
+{
+  "_id": "return.setup.mobile",
+  "_type": "page.form",
+  "body": "We’ll send a security code by text message to your mobile.\r\n\r\nEnter the code on the next page to confirm your number.",
+  "components": [
+    {
+      "_id": "return.setup.mobile--text.mobile",
+      "_type": "text",
+      "label": "Mobile number",
+      "name": "mobile",
+      "widthClassInput": "one-half",
+      "errors": {
+        "pattern": {
+          "any": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 0808 157 0192"
+        }
+      },
+      "validation": {
+        "pattern": "^(\\+\\d\\d\\s*){0,1}(\\d(\\s|-){0,1}){8,15}\\d$"
+      }
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Add your mobile phone",
+  "mountPoint": "return.setup",
+  "steps": [
+    "return.setup.mobile.validate"
+  ],
+  "url": "mobile"
+}

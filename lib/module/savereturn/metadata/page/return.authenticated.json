@@ -1,0 +1,15 @@
+{
+  "_id": "return.authenticated",
+  "_type": "page.content",
+  "actionType": "continue.last",
+  "components": [
+    {
+      "_id": "return.authenticated.group",
+      "_isa": "group.authenticated",
+      "_type": "group"
+    }
+  ],
+  "heading": "Welcome back",
+  "mountPoint": "return.start",
+  "url": "signed-in"
+}

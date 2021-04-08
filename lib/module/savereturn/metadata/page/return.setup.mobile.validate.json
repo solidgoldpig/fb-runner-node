@@ -1,0 +1,29 @@
+{
+  "_id": "return.setup.mobile.validate",
+  "_type": "page.form",
+  "body": "We have sent a 5-digit security code to **{mobile}**.\r\n\r\nYour code is valid for [% module.savereturn.config#smsCodeDuration %] minutes\r\n\r\nEnter your code here to turn on 2-step verification.",
+  "components": [
+    {
+      "_id": "return.setup.mobile.validate--text.code",
+      "_type": "text",
+      "errors": {
+        "pattern": {
+          "any": "The code should be 5 digits"
+        }
+      },
+      "label": "Security code",
+      "name": "code",
+      "validation": {
+        "pattern": "^\\d{5}$"
+      },
+      "widthClassInput": "5"
+    },
+    {
+      "_id": "return.setup.mobile.validate--content.resend",
+      "_type": "content",
+      "html": "[Didn't get a code?]([% url:return.setup.mobile %])"
+    }
+  ],
+  "heading": "Check your phone",
+  "url": "confirm"
+}
