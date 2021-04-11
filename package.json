@@ -37,7 +37,7 @@
     "@solidgoldpig/fb-deploy-utils": "^1.0.10"
   },
   "dependencies": {
-    "@solidgoldpig/fb-nunjucks-helpers": "^0.0.22",
+    "@solidgoldpig/fb-nunjucks-helpers": "^0.0.23",
     "@solidgoldpig/fb-runtime-node": "^0.1.21",
     "@solidgoldpig/fb-specification": "^0.3.4",
     "@solidgoldpig/fb-submitter-client-node": "^0.0.29",
