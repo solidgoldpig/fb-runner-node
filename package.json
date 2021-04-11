@@ -1,6 +1,6 @@
 {
   "name": "@solidgoldpig/fb-runner-node",
-  "version": "0.0.160",
+  "version": "0.0.161",
   "engines": {
     "node": "12.4.0"
   },
