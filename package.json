@@ -1,6 +1,6 @@
 {
   "name": "@solidgoldpig/fb-runner-node",
-  "version": "0.0.161",
+  "version": "0.0.162",
   "engines": {
     "node": "12.4.0"
   },
@@ -37,6 +37,8 @@
     "@solidgoldpig/fb-deploy-utils": "^1.0.10"
   },
   "dependencies": {
+    "@promster/express": "^3.0.0",
+    "@sentry/node": "^5.5.0",
     "@solidgoldpig/fb-nunjucks-helpers": "^0.0.23",
     "@solidgoldpig/fb-runtime-node": "^0.1.21",
     "@solidgoldpig/fb-specification": "^0.3.4",
@@ -44,8 +46,6 @@
     "@solidgoldpig/fb-user-datastore-client-node": "^0.0.29",
     "@solidgoldpig/fb-user-filestore-client-node": "^0.0.29",
     "@solidgoldpig/fb-utils-node": "^0.1.7",
-    "@promster/express": "^3.0.0",
-    "@sentry/node": "^5.5.0",
     "basic-auth": "^2.0.1",
     "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
